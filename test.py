@@ -4,7 +4,6 @@ import tensorflow as tf
 from tqdm import tqdm
 import cv2
 from datav2 import load_data, tf_dataset
-from model import build_unet
 from ENet import ENet
 from mask_colors import BDD_color_out
 
